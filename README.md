@@ -23,7 +23,7 @@ To allow students to track their reported issues
 To help administrators manage and update issue status
 To identify duplicate complaints
 To provide basic statistics about campus issues
-To demonstrate Object-Oriented Programming concepts using Java
+To demonstrate Object Oriented Programming concepts using Java
 
 🔰Features
 Student Features
@@ -46,7 +46,7 @@ View all reported issues
 Search issues
 Update issue status
 View issue statistics
-Identify high-priority issues
+Identify high priority issues
 Save issue information
 Issue Status
 
@@ -202,11 +202,11 @@ Event Handling
 
 Default Login Credentials
 Student
-Email: eva@gmail.com
-Password: 12345
+Email: ----@gmail.com
+Password: 41372
 Admin
-Email: admin@campusfix.com
-Password: admin123
+Email: -----@campusfix.com
+Password: admin555
 
 🔰Future Improvements
 The project can be expanded with:
@@ -226,9 +226,8 @@ Password encryption
 
 Conclusion
 
-CampusFix offers a centralized approach to reporting and managing campus problems.
-The project combines Java Object-Oriented Programming with a graphical user interface to create a practical system that can be
-expanded into a larger campus management platform.
+CampusFix offers a centralized approach in the campus for students report issues and admins to manage the campus problems.
+This project combines Java Object Oriented Programming concepts with an effective graphical user interface using Java Swing in order to create a system that can be expanded into a larger campus management platform.
 
-The main idea is simple:
+Thus, the main idea of this project is:
 Report. Track. Resolve.
