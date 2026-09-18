@@ -6,7 +6,7 @@ public class StudentDashboard extends JFrame {
     private String studentName;
     public StudentDashboard(String studentName) {
         this.studentName = studentName;
-        setTitle("UniFix - Student Dashboard");
+        setTitle("CampusFix - Student Dashboard");
         setSize(900, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
