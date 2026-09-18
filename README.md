@@ -1,2 +1,2 @@
 # CampusFix-
-A JAVA Based System For Reporting Campus Issues And Resolving Them. 
+A JAVA Based System For Students to Report Campus Issues And For Admins To Track And Resolve Them.  
