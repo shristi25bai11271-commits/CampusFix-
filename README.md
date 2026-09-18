@@ -1,66 +1,65 @@
 CampusFix
-A JAVA Based System For Students to Report Campus Issues And For Admins To Track And Resolve Them.  
+A JAVA Based System For Students to Report Campus Issues And For Admins To Track And Resolve Them.
 
 🔰Project Overview
-Students can report issues such as:
--Electrical problems
+Students can report campus issues such as :
+-Electrical
 -Water leakage
--Internet/Wi-Fi issues
+-Internet/Wi-Fi
 -Broken furniture
 -Classroom problems
 -Hostel issues
 -Cleanliness
 -Security
--Other campus-related problems
-Each reported issue is given an Issue ID, priority level, and status so that it can be tracked from reporting to resolution.
+Other campus related problems
+Each reported issue will be given an Issue ID, priority level and status to track the progress from reporting to resolving.
 
 🔰Objectives
 The main objectives of CampusFix are:
--To provide an easy way for students to report campus problems.
--To maintain all reported issues in one system.
--To assign priority to issues based on their category.
--To allow students to track their reported issues.
--To help administrators manage and update issue status.
--To identify duplicate complaints.
--To provide basic statistics about campus issues.
--To demonstrate Object-Oriented Programming concepts using Java.
+To provide an easy way for students to report campus problems
+To maintain all reported issues in one system
+To assign priority to issues based on their category
+To allow students to track their reported issues
+To help administrators manage and update issue status
+To identify duplicate complaints
+To provide basic statistics about campus issues
+To demonstrate Object-Oriented Programming concepts using Java
 
 🔰Features
-
 Student Features
--Student registration
--Student login
--Report a new issue
--Select issue category
--Select campus location
--Add issue description
--View personally reported issues
--View all reported issues
--Search for issues
--Upvote existing issues
--Track issue status
--Logout
+Student registration
+Student login
+Report a new issue
+Select issue category
+Select campus location
+Add issue description
+View personally reported issues
+View all reported issues
+Search for issues
+Upvote existing issues
+Track issue status
+Logout
 
 Admin Features
--Admin login
--View all reported issues
--Search issues
--Update issue status
--View issue statistics
--Identify high-priority issues
--Save issue information
--Issue Status
+Admin login
+View all reported issues
+Search issues
+Update issue status
+View issue statistics
+Identify high-priority issues
+Save issue information
+Issue Status
 
 🔰Priority System
-CampusFix gives priority based on the type of issue.
--Category	Priority
--Security	Critical
--Water Leakage	Critical
--Electrical	High
--Internet/Wi-Fi	High
--Furniture	Medium
--Cleanliness	Medium
-This helps administrators attend to the urgent issues immediately .
+CampusFix assigns priority based on the type of issue.
+Category Priority
+Security Critical
+Water Leakage Critical
+Electrical High
+Internet/Wi-Fi High
+Furniture Medium
+Cleanliness Medium
+This helps administrators address urgent issues immediately.
 
 🔰Project Structure
 CampusFix
@@ -79,31 +78,31 @@ CampusFix
 
 Main Classes
 User.java
-It contains user's information such as:
+Contains user's information such as
 Name
 User ID
 Email
 Password
-It also lets the student login.
+It also allows the student to login.
 
 Student.java
-Extends the User class.
-Additional student information includes:
+Extends the User class
+Additional student information includes
 Branch
 Year
 Students can report and view their previous campus issues.
 
 Admin.java
-Extends the User class.
-The admin is responsible for:
+Extends the User class
+The admin is responsible for
 Viewing issues
 Updating issue status
 Searching issues
 Viewing statistics
 
 Issue.java
-Represents a single campus issue.
-It stores information such as:
+Represents a single campus issue
+It stores information such as
 Issue ID
 Title
 Category
@@ -115,8 +114,8 @@ Status
 Upvotes
 
 IssueManager.java
-Manages all the reported issues.
-It handles operations such as:
+Manages all the reported issues
+It handles operations such as
 Adding issues
 Displaying issues
 Searching issues
@@ -125,14 +124,14 @@ Upvoting issues
 Calculating statistics
 Checking duplicate issues
 FileManager.java
-It handles saving issue information to a file so that issue data can be stored outside the program.
+Handles saving issue information to a file so that issue data can be stored outside the program.
 
 LoginFrame.java
 Provides the graphical login interface so that the students and admins can login.
 
 StudentDashboard.java
-Provides the main graphical interface for students.
-Students can access features such as:
+Provides the main graphical interface for students
+Students can access features such as
 Report Issue
 My Issues
 Search Issues
@@ -141,7 +140,7 @@ Logout
 AdminDashboard.java
 Provides the graphical interface for administrators.
 
-Administrators can access:
+Administrators can access
 All Issues
 Update Status
 Search Issues
@@ -154,39 +153,35 @@ The application contains two dashboards for students and administrators.
 
 //Student Flow//
 Login
-  ↓
 Student Dashboard
-  ↓
 ┌─────────────────────────┐
-│ Report Issue            │
-│ My Issues               │
-│ Search Issues           │
-│ Upvote Issue            │
-│ Logout                  │
+│ Report Issue      │
+│ My Issues        │
+│ Search Issues      │
+│ Upvote Issue      │
+│ Logout         │
 └─────────────────────────┘
 
 //Admin Flow//
 Login
-  ↓
 Admin Dashboard
-  ↓
 ┌─────────────────────────┐
-│ View All Issues         │
-│ Search Issues           │
-│ Update Status           │
-│ View Statistics         │
-│ Logout                  │
+│ View All Issues     │
+│ Search Issues      │
+│ Update Status      │
+│ View Statistics     │
+│ Logout         │
 └─────────────────────────┘
 
 🔰Technologies Used:
-Technology	Purpose
-Java	Main programming language
-Java Swing	Graphical User Interface
-OOP	Application structure
-ArrayList	Storing issues
-File Handling	Saving issue data
-IntelliJ IDEA / VS Code	Development environment
-Git & GitHub	Version control and project hosting
+Technology Purpose
+Java Main programming language
+Java Swing Graphical User Interface
+OOP Application structure
+ArrayList Storing issues
+File Handling Saving issue data
+IntelliJ IDEA / VS Code Development environment
+Git & GitHub Version control and project hosting
 
 🔰Java Concepts Used:
 This project demonstrates several Java concepts:
@@ -213,9 +208,8 @@ Admin
 Email: admin@campusfix.com
 Password: admin123
 
-
 🔰Future Improvements
-The project can be extended with:
+The project can be expanded with:
 Database integration using MySQL
 Student profile management
 Image upload for issue evidence
@@ -232,7 +226,7 @@ Password encryption
 
 Conclusion
 
-CampusFix provides a centralized approach to reporting and managing campus problems. 
+CampusFix offers a centralized approach to reporting and managing campus problems.
 The project combines Java Object-Oriented Programming with a graphical user interface to create a practical system that can be
 expanded into a larger campus management platform.
 
